@@ -1,0 +1,60 @@
+##gff-version 3
+#!genome-build GRCh38
+#!genome-version GRCh38
+#!genome-date 2013-12
+#!genome-build-accession NCBI:GCA_000001405.15
+#!genebuild-last-updated 2024-03
+##
+## Subset of Homo_sapiens.GRCh38.113.gff3
+## Contains 3 genes: ACTB (+), GAPDH (-), RPPH1 (non-stranded)
+## Also contains 2 biological_region entries near ACTB
+## Source: Ensembl release 113 (https://www.ensembl.org)
+##
+##sequence-region 7 1 159345973
+##sequence-region 12 1 133275309
+##sequence-region 14 1 107043718
+7	GRCh38	chromosome	1	159345973	.	.	.	ID=chromosome:7;Alias=CM000669.2,chr7,NC_000007.14
+12	GRCh38	chromosome	1	133275309	.	.	.	ID=chromosome:12;Alias=CM000674.2,chr12,NC_000012.12
+14	GRCh38	chromosome	1	107043718	.	.	.	ID=chromosome:14;Alias=CM000676.2,chr14,NC_000014.9
+7	Regulatory_Build	biological_region	5519832	5520438	.	.	.	ID=regulatory_region:ENSR00000316431;bound_end=5520600;bound_start=5519700;description=CTCF binding site;logic_name=Regulatory_Build;regulatory_feature_stable_id=ENSR00000316431;so_accession=SO:0001974;so_term=CTCF_binding_site
+7	cpg	biological_region	5524000	5527200	.	.	.	external_name=island:7:5524000-5527200;logic_name=cpg;Name=CpG:189
+7	ensembl_havana	gene	5527148	5563784	.	+	.	ID=gene:ENSG00000075624;Name=ACTB;biotype=protein_coding;description=actin beta [Source:HGNC Symbol%3BAcc:HGNC%3A132];gene_id=ENSG00000075624;logic_name=ensembl_havana_gene_homo_sapiens;version=14
+7	ensembl_havana	mRNA	5527148	5563784	.	+	.	ID=transcript:ENST00000331789;Parent=gene:ENSG00000075624;Name=ACTB-201;biotype=protein_coding;gene_id=ENSG00000075624;transcript_id=ENST00000331789;version=7;ccds_id=CCDS5224
+7	ensembl_havana	exon	5527148	5527302	.	+	.	Name=ENSE00001656423;Parent=transcript:ENST00000331789;constitutive=1;exon_id=ENSE00001656423;rank=1
+7	ensembl_havana	exon	5530408	5530505	.	+	.	Name=ENSE00001211865;Parent=transcript:ENST00000331789;constitutive=1;exon_id=ENSE00001211865;rank=2
+7	ensembl_havana	exon	5532187	5532261	.	+	.	Name=ENSE00003477525;Parent=transcript:ENST00000331789;constitutive=1;exon_id=ENSE00003477525;rank=3
+7	ensembl_havana	exon	5540250	5540367	.	+	.	Name=ENSE00000832090;Parent=transcript:ENST00000331789;constitutive=1;exon_id=ENSE00000832090;rank=4
+7	ensembl_havana	exon	5543003	5543104	.	+	.	Name=ENSE00003468296;Parent=transcript:ENST00000331789;constitutive=1;exon_id=ENSE00003468296;rank=5
+7	ensembl_havana	exon	5562543	5563784	.	+	.	Name=ENSE00001657980;Parent=transcript:ENST00000331789;constitutive=1;exon_id=ENSE00001657980;rank=6
+7	ensembl_havana	CDS	5527237	5527302	.	+	0	ID=CDS:ENSP00000349960;Parent=transcript:ENST00000331789;protein_id=ENSP00000349960
+7	ensembl_havana	CDS	5530408	5530505	.	+	0	ID=CDS:ENSP00000349960;Parent=transcript:ENST00000331789;protein_id=ENSP00000349960
+7	ensembl_havana	CDS	5532187	5532261	.	+	1	ID=CDS:ENSP00000349960;Parent=transcript:ENST00000331789;protein_id=ENSP00000349960
+7	ensembl_havana	CDS	5540250	5540367	.	+	1	ID=CDS:ENSP00000349960;Parent=transcript:ENST00000331789;protein_id=ENSP00000349960
+7	ensembl_havana	CDS	5543003	5543104	.	+	0	ID=CDS:ENSP00000349960;Parent=transcript:ENST00000331789;protein_id=ENSP00000349960
+7	ensembl_havana	CDS	5562543	5563211	.	+	0	ID=CDS:ENSP00000349960;Parent=transcript:ENST00000331789;protein_id=ENSP00000349960
+7	ensembl_havana	five_prime_UTR	5527148	5527236	.	+	.	Parent=transcript:ENST00000331789
+7	ensembl_havana	three_prime_UTR	5563212	5563784	.	+	.	Parent=transcript:ENST00000331789
+12	ensembl_havana	gene	6534513	6538371	.	-	.	ID=gene:ENSG00000111640;Name=GAPDH;biotype=protein_coding;description=glyceraldehyde-3-phosphate dehydrogenase [Source:HGNC Symbol%3BAcc:HGNC%3A4141];gene_id=ENSG00000111640;logic_name=ensembl_havana_gene_homo_sapiens;version=5
+12	ensembl_havana	mRNA	6534513	6538371	.	-	.	ID=transcript:ENST00000229239;Parent=gene:ENSG00000111640;Name=GAPDH-201;biotype=protein_coding;gene_id=ENSG00000111640;transcript_id=ENST00000229239;version=7;ccds_id=CCDS8736
+12	ensembl_havana	exon	6534513	6534710	.	-	.	Name=ENSE00002230833;Parent=transcript:ENST00000229239;constitutive=1;exon_id=ENSE00002230833;rank=9
+12	ensembl_havana	exon	6535476	6535606	.	-	.	Name=ENSE00002230839;Parent=transcript:ENST00000229239;constitutive=1;exon_id=ENSE00002230839;rank=8
+12	ensembl_havana	exon	6535888	6535989	.	-	.	Name=ENSE00002230847;Parent=transcript:ENST00000229239;constitutive=1;exon_id=ENSE00002230847;rank=7
+12	ensembl_havana	exon	6536239	6536369	.	-	.	Name=ENSE00002217666;Parent=transcript:ENST00000229239;constitutive=1;exon_id=ENSE00002217666;rank=6
+12	ensembl_havana	exon	6536751	6536881	.	-	.	Name=ENSE00002217686;Parent=transcript:ENST00000229239;constitutive=1;exon_id=ENSE00002217686;rank=5
+12	ensembl_havana	exon	6537072	6537212	.	-	.	Name=ENSE00002217698;Parent=transcript:ENST00000229239;constitutive=1;exon_id=ENSE00002217698;rank=4
+12	ensembl_havana	exon	6537540	6537623	.	-	.	Name=ENSE00002217716;Parent=transcript:ENST00000229239;constitutive=1;exon_id=ENSE00002217716;rank=3
+12	ensembl_havana	exon	6537708	6537827	.	-	.	Name=ENSE00002217726;Parent=transcript:ENST00000229239;constitutive=1;exon_id=ENSE00002217726;rank=2
+12	ensembl_havana	exon	6538147	6538371	.	-	.	Name=ENSE00002217744;Parent=transcript:ENST00000229239;constitutive=1;exon_id=ENSE00002217744;rank=1
+12	ensembl_havana	CDS	6535476	6535606	.	-	2	ID=CDS:ENSP00000229239;Parent=transcript:ENST00000229239;protein_id=ENSP00000229239
+12	ensembl_havana	CDS	6535888	6535989	.	-	2	ID=CDS:ENSP00000229239;Parent=transcript:ENST00000229239;protein_id=ENSP00000229239
+12	ensembl_havana	CDS	6536239	6536369	.	-	1	ID=CDS:ENSP00000229239;Parent=transcript:ENST00000229239;protein_id=ENSP00000229239
+12	ensembl_havana	CDS	6536751	6536881	.	-	0	ID=CDS:ENSP00000229239;Parent=transcript:ENST00000229239;protein_id=ENSP00000229239
+12	ensembl_havana	CDS	6537072	6537212	.	-	0	ID=CDS:ENSP00000229239;Parent=transcript:ENST00000229239;protein_id=ENSP00000229239
+12	ensembl_havana	CDS	6537540	6537623	.	-	0	ID=CDS:ENSP00000229239;Parent=transcript:ENST00000229239;protein_id=ENSP00000229239
+12	ensembl_havana	CDS	6537708	6537827	.	-	0	ID=CDS:ENSP00000229239;Parent=transcript:ENST00000229239;protein_id=ENSP00000229239
+12	ensembl_havana	CDS	6538147	6538314	.	-	0	ID=CDS:ENSP00000229239;Parent=transcript:ENST00000229239;protein_id=ENSP00000229239
+12	ensembl_havana	five_prime_UTR	6538315	6538371	.	-	.	Parent=transcript:ENST00000229239
+12	ensembl_havana	three_prime_UTR	6534513	6534710	.	-	.	Parent=transcript:ENST00000229239
+14	ensembl_havana	gene	20748981	20749373	.	.	.	ID=gene:ENSG00000264726;Name=RPPH1;biotype=misc_RNA;description=ribonuclease P RNA component H1 [Source:HGNC Symbol%3BAcc:HGNC%3A10290];gene_id=ENSG00000264726;logic_name=ensembl_havana_gene_homo_sapiens;version=3
+14	ensembl_havana	transcript	20748981	20749373	.	.	.	ID=transcript:ENST00000383925;Parent=gene:ENSG00000264726;Name=RPPH1-201;biotype=misc_RNA;gene_id=ENSG00000264726;transcript_id=ENST00000383925;version=3
+14	ensembl_havana	exon	20748981	20749373	.	.	.	Name=ENSE00001480442;Parent=transcript:ENST00000383925;constitutive=0;exon_id=ENSE00001480442;rank=1
